@@ -1,4 +1,4 @@
-# DOCKER VOLUMES
+# DOCKER DATA PERSISTENCE
 
 This repo is to learn how docker volumes work. To run, follow the instructions [here](#how-to-run)
 # Repo structure
@@ -57,7 +57,7 @@ This section defines the named volumes used in the service configuration above. 
 ## How to run
 1. Clone the repo
 ```sh
-git clone docker-data-persistence
+git clone https://github.com/izyak/docker-data-persistence.git
 cd docker-data-persistence
 ```
 
