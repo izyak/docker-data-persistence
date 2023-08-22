@@ -117,7 +117,12 @@ docker compose down
 docker compose up -d
 ```
 
-12. Check the id and data folder again/
+12. Enter the docker container again
+```sh
+docker exec -it <container_id_or_name> /bin/bash
+```
+
+13. Check the id and data folder again/
 ```sh
 cat env/id
 ls data
