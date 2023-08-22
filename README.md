@@ -129,6 +129,11 @@ ls data
 ```
 > If volumes were not mounted, when we run this container again, and check, all the data should be cleared out. However, since we have mounted the volumes, the data in the volume persists.
 
+14. You can see the volumes were created on local filesystem, which will be mounted to the docker containers.
+```sh
+docker volume ls
+```
+
 
 ---
 This is how docker volumes works and how they can be used to persist data in the container.
