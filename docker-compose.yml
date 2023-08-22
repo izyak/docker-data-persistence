@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+    app:
+        image: learn-persistence:latest
+        volumes:
+            - app-data:/app/data
+            - app-env:/app/env
+        ports:
+            - "8080:8080"
+volumes:
+    app-data:
+    app-env:
